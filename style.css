@@ -69,7 +69,6 @@ iframe {
 }
 
 @media (max-width:768px) {
-
   .guide-box {
     gap: 30px;
     margin: 30px 15px;
@@ -91,6 +90,10 @@ iframe {
 }
 
 @media (max-width:550px) {
+
+  iframe {
+    height: 70vh;
+  }
 
   .guide-img {
     width: 70px;
