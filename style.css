@@ -62,17 +62,6 @@ iframe {
   border: 0;
 }
 
-html,
-body {
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-
-.wrapper,
-main {
-  overflow: visible;
-}
-
 @media (max-width:768px) {
 
   .guide-box {
