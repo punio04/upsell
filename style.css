@@ -1,6 +1,7 @@
 body {
   font-family: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif !important;
 }
+
 .guide-text {
   font-family: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif !important;
 }
@@ -55,7 +56,22 @@ body {
 
 iframe {
   margin: 60px auto;
+  display: block;
   width: 100%;
+  max-width: 100%;
+  border: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.wrapper,
+main {
+  overflow: visible;
 }
 
 @media (max-width:768px) {
